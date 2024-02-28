@@ -16,8 +16,8 @@ import (
 
 	flatbuffers "github.com/google/flatbuffers/go"
 	"github.com/pkg/errors"
-	"gorgonia.org/tensor/internal/serialization/fb"
-	"gorgonia.org/tensor/internal/serialization/pb"
+	"github.com/pdevine/tensor/internal/serialization/fb"
+	"github.com/pdevine/tensor/internal/serialization/pb"
 )
 
 /* GOB SERIALIZATION */

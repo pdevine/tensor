@@ -2,7 +2,7 @@ package tensor
 
 import (
 	"github.com/pkg/errors"
-	"gorgonia.org/tensor/internal/storage"
+	"github.com/pdevine/tensor/internal/storage"
 )
 
 func (e StdEng) Clamp(a Tensor, min, max interface{}, opts ...FuncOpt) (retVal Tensor, err error) {

@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	. "gorgonia.org/tensor"
+	. "github.com/pdevine/tensor"
 )
 
 func Test_VectorB(t *testing.T) {

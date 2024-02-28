@@ -7,7 +7,7 @@ import (
 	"unsafe"
 
 	"github.com/pkg/errors"
-	"gorgonia.org/tensor/internal/storage"
+	"github.com/pdevine/tensor/internal/storage"
 )
 
 func (e E) ReduceFirst(t reflect.Type, data *storage.Header, retVal *storage.Header, split int, size int, fn interface{}) (err error) {

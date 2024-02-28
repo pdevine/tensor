@@ -7,7 +7,7 @@ import (
 	"unsafe"
 
 	"github.com/pkg/errors"
-	. "gorgonia.org/tensor"
+	. "github.com/pdevine/tensor"
 )
 
 func checkNativeSelectable(t *Dense, axis int, dt Dtype) error {

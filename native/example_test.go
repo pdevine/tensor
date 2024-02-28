@@ -3,7 +3,7 @@ package native
 import (
 	"fmt"
 
-	. "gorgonia.org/tensor"
+	. "github.com/pdevine/tensor"
 )
 
 // There are times where it is more effective to use native Go slice semantics to do work (for example, when performing batch work over kernels).

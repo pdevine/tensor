@@ -3,7 +3,7 @@ package tensor_test
 import (
 	"fmt"
 
-	"gorgonia.org/tensor"
+	"github.com/pdevine/tensor"
 )
 
 // In this example, we want to handle basic tensor operations for arbitray types (slicing, stacking, transposing)

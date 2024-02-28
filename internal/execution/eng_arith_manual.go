@@ -4,7 +4,7 @@ import (
 	"reflect"
 
 	"github.com/pkg/errors"
-	"gorgonia.org/tensor/internal/storage"
+	"github.com/pdevine/tensor/internal/storage"
 )
 
 func (e E) AddSliced(t reflect.Type, dataA *storage.Header, dstStart, dstEnd int, dataB *storage.Header, srcStart, srcEnd int) (err error) {

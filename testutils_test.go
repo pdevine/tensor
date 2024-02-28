@@ -13,7 +13,7 @@ import (
 	"unsafe"
 
 	"github.com/chewxy/math32"
-	"gorgonia.org/tensor/internal/storage"
+	"github.com/pdevine/tensor/internal/storage"
 )
 
 func randomBool() bool {

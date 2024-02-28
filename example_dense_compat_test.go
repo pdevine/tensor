@@ -5,7 +5,7 @@ import (
 
 	"github.com/apache/arrow/go/arrow/array"
 	"github.com/apache/arrow/go/arrow/memory"
-	"gorgonia.org/tensor"
+	"github.com/pdevine/tensor"
 )
 
 func ExampleDense_Arrow() {

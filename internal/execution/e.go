@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"unsafe"
 
-	"gorgonia.org/tensor/internal/storage"
+	"github.com/pdevine/tensor/internal/storage"
 )
 
 // E is the standard engine. It's to be embedded in package tensor

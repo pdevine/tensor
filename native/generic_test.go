@@ -3,8 +3,8 @@ package native_test
 import (
 	"fmt"
 
-	"gorgonia.org/tensor"
-	. "gorgonia.org/tensor/native"
+	"github.com/pdevine/tensor"
+	. "github.com/pdevine/tensor/native"
 )
 
 type MyType int

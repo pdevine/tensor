@@ -7,7 +7,7 @@ import (
 	"unsafe"
 
 	"github.com/pkg/errors"
-	"gorgonia.org/tensor/internal/storage"
+	"github.com/pdevine/tensor/internal/storage"
 )
 
 // array is the underlying generic array.

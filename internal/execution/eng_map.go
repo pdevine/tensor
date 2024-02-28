@@ -7,7 +7,7 @@ import (
 	"unsafe"
 
 	"github.com/pkg/errors"
-	"gorgonia.org/tensor/internal/storage"
+	"github.com/pdevine/tensor/internal/storage"
 )
 
 func (e E) Map(t reflect.Type, fn interface{}, a *storage.Header, incr bool) (err error) {

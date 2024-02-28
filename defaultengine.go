@@ -2,7 +2,7 @@ package tensor
 
 import (
 	"github.com/pkg/errors"
-	"gorgonia.org/tensor/internal/execution"
+	"github.com/pdevine/tensor/internal/execution"
 )
 
 // StdEng is the default execution engine that comes with the tensors. To use other execution engines, use the WithEngine construction option.

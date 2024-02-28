@@ -2,8 +2,8 @@ package tensor
 
 import (
 	"github.com/pkg/errors"
-	"gorgonia.org/tensor/internal/execution"
-	"gorgonia.org/tensor/internal/storage"
+	"github.com/pdevine/tensor/internal/execution"
+	"github.com/pdevine/tensor/internal/storage"
 
 	"gorgonia.org/vecf32"
 )

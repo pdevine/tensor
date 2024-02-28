@@ -20,5 +20,5 @@ func writePkgName(f io.Writer, pkg string) {
 	}
 }
 
-const importUnqualifiedTensor = `import . "gorgonia.org/tensor"
+const importUnqualifiedTensor = `import . "github.com/pdevine/tensor"
 `

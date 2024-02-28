@@ -6,7 +6,7 @@ import (
 	"reflect"
 
 	"github.com/pkg/errors"
-	"gorgonia.org/tensor/internal/storage"
+	"github.com/pdevine/tensor/internal/storage"
 )
 
 func MonotonicSum(t reflect.Type, a *storage.Header) (retVal interface{}, err error) {

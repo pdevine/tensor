@@ -1418,7 +1418,7 @@ var (
 )
 
 func init() {
-	proto.RegisterFile("gorgonia.org/tensor/internal/serialization/pb/generated.proto", fileDescriptorGenerated)
+	proto.RegisterFile("github.com/pdevine/tensor/internal/serialization/pb/generated.proto", fileDescriptorGenerated)
 }
 
 var fileDescriptorGenerated = []byte{

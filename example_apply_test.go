@@ -3,7 +3,7 @@ package tensor_test
 import (
 	"fmt"
 
-	"gorgonia.org/tensor"
+	"github.com/pdevine/tensor"
 )
 
 func ExampleDense_Apply() {

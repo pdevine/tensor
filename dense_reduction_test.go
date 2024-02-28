@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"gorgonia.org/tensor/internal/execution"
+	"github.com/pdevine/tensor/internal/execution"
 )
 
 var denseReductionTests = []struct {
