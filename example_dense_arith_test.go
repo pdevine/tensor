@@ -2192,7 +2192,7 @@ func ExampleDense_PowScalar_basic() {
 	// ⎡     1       5      25⎤
 	// ⎢   125     625    3125⎥
 	// ⎣ 15625   78125  390625⎦
-
+	//
 	// T1 is unchanged:
 	// ⎡0  1  2⎤
 	// ⎢3  4  5⎥
@@ -2204,7 +2204,7 @@ func ExampleDense_PowScalar_basic() {
 	// T3:
 	// ⎡   0     1⎤
 	// ⎣ 243  1024⎦
-
+	//
 	// T1 is unchanged:
 	// ⎡0  1  2⎤
 	// ⎢3  4  5⎥
