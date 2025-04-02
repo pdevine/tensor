@@ -8,7 +8,7 @@ import (
 	"github.com/pdevine/tensor"
 )
 
-func ExampleDense_Arrow() {
+func ExampleFromArrowArray() {
 	pool := memory.NewGoAllocator()
 
 	b := array.NewFloat64Builder(pool)

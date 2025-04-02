@@ -51,7 +51,7 @@ func Example_iteratorcolMajor() {
 
 }
 
-func ExampleSliceIter() {
+func ExampleSlice() {
 	T := New(WithShape(3, 3), WithBacking(Range(Float64, 0, 9)))
 	S, err := T.Slice(makeRS(1, 3), makeRS(1, 3))
 	if err != nil {

@@ -5,7 +5,7 @@ go 1.22.0
 require (
 	github.com/apache/arrow/go/arrow v0.0.0-20211112161151-bc219186db40
 	github.com/chewxy/hm v1.0.0
-	github.com/chewxy/math32 v1.10.1
+	github.com/chewxy/math32 v1.11.0
 	github.com/gogo/protobuf v1.3.2
 	github.com/golang/protobuf v1.5.4
 	github.com/google/flatbuffers v24.3.25+incompatible
